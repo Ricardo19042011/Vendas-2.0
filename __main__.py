@@ -1,9 +1,11 @@
 #'Adicionar venda' 'Remover venda' 'Ver vendas' 'Editar venda' 'Busca por nome' 'Busca por data' 'Limpar vendas' 'Sair'
 
-
-from funcoesExtras import menu
+from funcoes.cadastro import cadastrar_venda
+from classesPrincipais.gerenciador_vendas import GerenciadorVendas
+from funcoes.funcoesExtras import menu
 import os
 
+gerenciador = GerenciadorVendas()
 
 def main():
     while True:
@@ -11,7 +13,7 @@ def main():
 
         if menu_principal == 'Adicionar venda':
             os.system("cls" if os.name == "nt" else "clear")
-            print('cu')
+            cadastrar_venda(gerenciador=gerenciador)
             
 
 
