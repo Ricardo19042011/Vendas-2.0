@@ -1,0 +1,4 @@
+A ideia do projeto é utilizar os conhecimentos que adquiri estudando POO até agora.
+A ideia é criar uma classe chamada Venda para criar objetos de cada venda que será vendida no dia.
+Também adicionar a função de ver a venda de acordo pela data. Exemplo abaixo:
+O funcionário quer ver quantas vendas foram feitas no dia 14-03-2026, então ele busca o relatório dessa data
